@@ -145,7 +145,23 @@ hr {
     text-align: center;
     padding: 0 20px;
     align-items: center;
+}
 
+.img-example-straightness2 {
+    width: 300px;
+}
+
+.div-content-relation {
+    display: flex;
+    gap: 10%;
+}
+
+.div-content-relation-img {
+    text-align: center;
+}
+
+#img-logo-footer {
+    width: 140px;
 }
 
 @media (max-width: 520px) {
@@ -170,8 +186,10 @@ hr {
         margin: 2px 20px;
         width: 80px;
     }
-}
 
-.img-example-straightness2 {
-    width: 300px;
+    .img-example-straightness {
+        width: 80%;
+
+    }
+
 }
