@@ -192,4 +192,8 @@ hr {
 
     }
 
+    #hr-center {
+        display: none;
+    }
+
 }
