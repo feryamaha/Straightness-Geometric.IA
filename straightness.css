@@ -58,17 +58,23 @@ header {
 
 #back-style-straightness {
     padding: 10px 10px;
+    background-color: #000;
     text-decoration: none;
+    border: 2px solid #93bafc;
     border-bottom: 1px solid #93bafc;
     border-right: 1px solid #93bafc;
-    color: #000;
+    border-radius: 15px;
+    color: #fff;
     overflow-y: hidden;
 }
 
 #back-style-straightness:hover {
+    background-color: #fff;
+    border: none;
     border-bottom: 3px solid #93bafc;
     border-right: 5px solid #93bafc;
     border-radius: 10px;
+    color: #000;
 }
 
 .div-wrapper {
@@ -92,18 +98,12 @@ header {
     padding-bottom: 2px;
 }
 
-.alink-FM {
-    color: #6293e9;
-    border-bottom: 1px solid #6293e9;
-}
-
 .img-logo {
     width: 200px;
+    filter: contrast(200%);
 }
 
-.img-profile {
-    width: 100px;
-}
+
 
 .text-content,
 .ptext-content {
@@ -161,7 +161,21 @@ hr {
 }
 
 #img-logo-footer {
-    width: 140px;
+    width: 130px;
+    filter: contrast(200%);
+}
+
+.img-profile {
+    filter: contrast(150%);
+    width: 90px;
+}
+
+#img-logo-footer:hover,
+.img-profile:hover {
+    border-radius: 8px;
+    border-right: 2px solid #6293e9;
+    border-bottom: 1px solid #6293e9;
+    filter: contrast(300%);
 }
 
 @media (max-width: 520px) {
