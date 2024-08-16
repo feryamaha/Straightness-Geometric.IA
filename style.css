@@ -85,6 +85,11 @@ header {
 .img-icons {
     width: 80px;
     filter: invert(100%);
+    padding-bottom: 1%;
+}
+
+.img-icons:hover {
+    transform: scale(1.1);
 }
 
 .h1-title {
@@ -118,7 +123,7 @@ hr {
 
 .div-wrapper-text-content {
     text-align: center;
-    padding: 0 10%;
+    padding: 0 20%;
 }
 
 .img-example-straightness {
@@ -159,6 +164,11 @@ hr {
     text-align: center;
 }
 
+footer {
+    border-top: 1px solid #6293e9;
+    padding-top: 3%;
+}
+
 #img-logo-footer {
     width: 130px;
     filter: contrast(200%);
@@ -174,7 +184,6 @@ hr {
     border-radius: 8px;
     border-right: 2px solid #6293e9;
     border-bottom: 1px solid #6293e9;
-    filter: contrast(300%);
 }
 
 @media (max-width: 520px) {
