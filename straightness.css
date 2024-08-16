@@ -103,8 +103,6 @@ header {
     filter: contrast(200%);
 }
 
-
-
 .text-content,
 .ptext-content {
     font-size: 15.5px;
@@ -136,15 +134,16 @@ hr {
     padding: 1%;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .div-example-content {
     margin: 0 5%;
     width: 250px;
     border-radius: 10px;
-    text-align: center;
     padding: 0 20px;
     align-items: center;
+    text-align: center;
 }
 
 .img-example-straightness2 {
@@ -180,7 +179,7 @@ hr {
 
 @media (max-width: 520px) {
     .div-wrapper-example {
-        display: block;
+        /*display: block;*/
         text-align: center;
     }
 
@@ -207,6 +206,20 @@ hr {
 
     #hr-center {
         display: none;
+    }
+
+    .text-content,
+    .ptext-content {
+        font-size: 8px;
+    }
+
+    .div-example-content {
+        padding: 0 5px;
+    }
+
+    .div-wrapper-text-content {
+        text-align: center;
+        padding: 0 5%;
     }
 
 }
