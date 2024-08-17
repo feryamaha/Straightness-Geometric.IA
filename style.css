@@ -175,6 +175,10 @@ footer {
     text-align: center;
 }
 
+.div-wraapper-img-footer {
+    padding: 2%;
+}
+
 #logo2 {
     cursor: pointer;
     width: 250px;
