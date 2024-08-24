@@ -212,6 +212,7 @@ footer {
     border-radius: 8px;
     border-right: 2px solid #6293e9;
     border-bottom: 1px solid #6293e9;
+    cursor: pointer;
 }
 
 @media (max-width: 520px) {
@@ -259,4 +260,40 @@ footer {
         font-size: 16px;
     }
 
+}
+
+#id-FORMA3D img:hover {
+    transform: scale(1.4);
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 1px #000;
+}
+
+#id-linkedin-Andre {
+    text-decoration: none;
+    color: #6293e9;
+    font-size: 15px;
+}
+
+#id-linkedin-Andre:hover {
+    text-decoration: underline;
+    box-shadow: 0.5px 0.5px 1px #000;
+    border-radius: 5px;
+    padding: 1%;
+    color: #000;
+    filter: contrast(200%);
+}
+
+#id-linkedin-formações {
+    text-decoration: none;
+    color: #6293e9;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#id-linkedin-formações:hover {
+    text-decoration: underline;
+    box-shadow: 0.5px 0.5px 1px #000;
+    border-radius: 5px;
+    padding: 1%;
+    color: #000;
 }
